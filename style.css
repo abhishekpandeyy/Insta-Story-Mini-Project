@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+#insta{
+    height: 80vh;
+    width: 60vh;
+    background-color: #ffff;
+    border-radius: 25px;
+    position: relative;
+}
+
+#storiya{  
+    padding: 3%;
+    height: 29%;
+    overflow-x: auto;overflow-y:hidden;
+    border-bottom: .5px solid black;
+    white-space: nowrap;
+}
+#storiya::-webkit-scrollbar{
+    display: none;
+}
+ .story{
+    height: 15vh;
+    width: 15vh;
+    padding: 2px;
+    margin-left: 8px;
+    margin-top: 2vh;
+    background:
+    linear-gradient(to left bottom, #DD02A5,#FD001C,#FFA901,#FE0004);
+    /* linear-gradient(45deg, #e22db5 35%, transparent 25%) -16% 0,
+    linear-gradient(135deg, #FD001C 30%, transparent 25%) -10% 0,
+    linear-gradient(225deg, #FFA901 35%, transparent 25%) -10% 0,
+    linear-gradient(315deg, #FE0004 35%, transparent 25%) -10% 0; */
+    border-radius: 50%;
+    background-position: center;
+    padding: 3px;
+    /* background-size: cover; */
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#insta::-webkit-scrollbar{
+    display: none;
+}
+
+#win{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;width: 100%;
+    background-color: transparent;
+    display: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+#progress{
+    height: .5vh;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.427);
+    width: 80%;
+    left: 10%;
+    top: 4.5vh;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#reach{
+    height: 1vh;
+    /* position: absolute; */
+    background-color: #ffff;
+    width: 70%;
+    left: 15%;
+    top: 2vh;
+    border-radius: 50px;
+}
