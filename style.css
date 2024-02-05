@@ -12,20 +12,55 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightseagreen;
+    background-color: #dada;
 }
 
 #insta{
-    height: 80vh;
-    width: 60vh;
+    height: 96vh;
+    width: 70vh;
     background-color: #ffff;
     border-radius: 25px;
     position: relative;
 }
 
+#header{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    height: 12%;
+    padding: 0 2vh;
+    /* background-color: lightslategrey; */
+    border-bottom: .5px solid black;
+}
+#header img{
+    /* padding: 4px 0 0 3px; */
+    width: 155px;
+    height: 34px;
+}
+#header i{
+    font-size: 28px;
+}
+.ri-messenger-line{
+ position: relative;
+}
+#red{
+position: absolute;
+top: -5px;
+background-color: red;
+color: white;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+right: -2px;
+}
+#itsp{
+    font-size: 15px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
 #storiya{  
-    padding: 3%;
-    height: 29%;
+    padding: 1%;
+    height: 20%;
     overflow-x: auto;overflow-y:hidden;
     border-bottom: .5px solid black;
     white-space: nowrap;
@@ -33,6 +68,30 @@ body{
 #storiya::-webkit-scrollbar{
     display: none;
 }
+    .mine{
+        height: 15vh;
+        width: 15vh;
+        padding: 2px;
+        margin-left: 8px;
+        margin-top: .5vh;
+        border-radius: 50%;
+        background-position: center;
+        padding: 3px;
+        display: inline-block;
+        border: 1px solid black;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/030/504/836/small/avatar-account-flat-isolated-on-transparent-background-for-graphic-and-web-design-default-social-media-profile-photo-symbol-profile-and-people-silhouette-user-icon-vector.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .ri-add-line{
+        color: white;
+        background-color:#0195F7;
+        position: absolute;
+        top: 74%;
+        right: 1%;
+        border-radius: 50%;
+    }
  .story{
     height: 15vh;
     width: 15vh;
