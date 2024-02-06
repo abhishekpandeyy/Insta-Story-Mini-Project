@@ -16,8 +16,8 @@ body{
 }
 
 #insta{
-    height: 96vh;
-    width: 70vh;
+    height: 100vh;
+    width: 30%;
     background-color: #ffff;
     border-radius: 25px;
     position: relative;
